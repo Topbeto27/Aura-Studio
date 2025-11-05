@@ -1,0 +1,15 @@
+.contact-button {
+  position: fixed;
+  bottom: 32px;
+  right: 32px;
+  z-index: 1200;
+  background: none;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(36,36,36,0.2);
+  transition: transform 0.2s;
+}
+
+.contact-button:hover {
+  transform: scale(1.1);
+}

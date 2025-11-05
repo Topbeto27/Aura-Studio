@@ -1,0 +1,80 @@
+# === Node / Build artifacts ===
+node_modules/
+dist/
+dist-ssr/
+build/
+
+# Vite / bundler caches
+.vite/
+.cache/
+.parcel-cache/
+
+# Lockfile caches (not the lockfiles themselves)
+.pnp.cjs
+
+# === Logs ===
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+logs/
+*.log
+
+# === Environment / secrets ===
+.env
+.env.*
+serviceAccountKey.json
+serviceAccountKey-*.json
+credentials.json
+
+# Any other private key files
+*.pem
+*.key
+*.crt
+
+# Firebase removed from project; no local Firebase files expected
+
+# === Coverage ===
+coverage/
+.nyc_output/
+
+# === OS files ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === IDEs / editors ===
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.lock-wscript
+
+# === Misc caches / temp ===
+.sass-cache/
+/.sass-cache
+.temp
+.tmp
+/.parcel-cache
+/.cache
+
+# === Dependency managers (don't ignore lockfiles) ===
+/.pnp/
+
+# === Optional runtime files ===
+.expo/
+.expo-shared/
+
+# === Other build artifacts / editors ===
+*.log
+/.DS_Store
+
+# Keep package.json and lockfiles committed
+# (do not ignore package-lock.json, yarn.lock or pnpm-lock.yaml)
+
+

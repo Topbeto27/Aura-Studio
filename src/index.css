@@ -1,0 +1,30 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Animaciones personalizadas para fade-in y slide-up */
+@layer utilities {
+  @keyframes fade-in-down {
+    0% { opacity: 0; transform: translateY(-32px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes fade-in-up {
+    0% { opacity: 0; transform: translateY(32px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+  .animate-fade-in-down {
+    animation: fade-in-down 0.7s cubic-bezier(0.4,0,0.2,1) both;
+  }
+  .animate-fade-in-up {
+    animation: fade-in-up 0.7s cubic-bezier(0.4,0,0.2,1) both;
+  }
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: url('./assets/bg-main.jpg') no-repeat center center fixed;
+  background-size: cover;
+}

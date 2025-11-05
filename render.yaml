@@ -1,0 +1,13 @@
+services:
+  - type: static
+    name: aurastudio
+    env: static
+    branch: main
+    # Run build inside the AuraStudio subfolder so Render doesn't need a service root
+    # When render clones the repo, it will run this command from the repo root.
+  # Use `npm install` so the environment installs dependencies according to package.json
+  # and includes devDependencies (vite) required for the build.
+  buildCommand: "cd AuraStudio && npm install --no-audit --prefer-offline && npm run copy-storage && npm run build"
+    # Publish the dist folder inside the subfolder
+    publishPath: AuraStudio/dist
+    plan: free

@@ -1,0 +1,46 @@
+{
+  "galleryImages": [
+    "gallery/gallery1.jpg",
+    "gallery/gallery2.jpg",
+    "gallery/gallery3.jpg",
+    "gallery/gallery4.jpg",
+    "gallery/gallery5.jpg",
+    "gallery/gallery6.jpg",
+    "gallery/gallery7.jpg",
+    "gallery/gallery8.jpg",
+    "gallery/gallery9.jpg",
+    "gallery/gallery10.jpg",
+    "gallery/gallery11.jpg",
+    "gallery/gallery12.jpg",
+    "gallery/gallery13.jpg",
+    "gallery/gallery14.jpg",
+    "gallery/gallery15.jpg",
+    "gallery/gallery16.jpg",
+    "gallery/gallery17.jpg",
+    "gallery/gallery18.jpg",
+    "gallery/gallery19.jpg",
+    "gallery/gallery20.jpg",
+    "gallery/gallery21.jpg",
+    "gallery/gallery22.jpg",
+    "gallery/gallery23.jpg",
+    "gallery/gallery24.jpg",
+    "gallery/gallery25.jpg",
+    "gallery/gallery26.jpg",
+    "gallery/gallery27.jpg",
+    "gallery/gallery28.jpg",
+    "gallery/gallery29.jpg",
+    "gallery/gallery30.jpg"
+  ],
+  "heroImages": [
+    "hero/hero.jpg"
+  ],
+  "teamImages": [
+    "team/member-1.jpg",
+    "team/member-2.jpg"
+  ],
+  "privateImages": [
+    "private/priv1.jpg",
+    "private/priv2.jpg",
+    "private/priv3.jpg"
+  ]
+}

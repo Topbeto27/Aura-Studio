@@ -1,0 +1,8 @@
+{
+  "name": "aurastudio-root",
+  "private": true,
+  "version": "0.0.0",
+  "dependencies": {
+    "axios": "^1.12.2"
+  }
+}
